@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/principal.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="fondo-menu"></div>
+    <div id="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+    <header>
+        <div id="barra-superior">
+            <div class="contenedor" id="primer-contenedor">
+                <p class="slogan" id="primer-slogan">¡Saber hacer... Para ser UTSOE!</p>
+                <a href="#!" class="enlace"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="#!" class="enlace"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#!" class="enlace"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#!" class="enlace"><i class="fa fa-play" aria-hidden="true"></i></a>
+                <form action="" id="busqueda">
+                    <input type="submit" value="" id="boton-buscar">
+                    <label for="boton-buscar"><i class="fa fa-search" aria-hidden="true" id="icono-buscar"></i></label>
+                    <input type="text" id="texto-buscar" placeholder="Buscar">
+                </form>
+            </div>
+        </div>
+        <div id="barra-navegacion">
+            <div class="contenedor" id="segundo-contenedor">
+                <a href="#!" class="menu" id="menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                <a href="#!" class="logo"><img src="img/icon/logo.png" alt="logo utsoe"></a>
+                <a href="#!" class="vinculo">Soy UTSOE</a>
+                <a href="#!" class="vinculo">Extensión Universitaria</a>
+                <a href="#!" class="vinculo">Vinculación</a>
+                <a href="#!" class="vinculo">Servicios Escolares</a>
+                <a href="#!" class="vinculo">Acceso a la Información</a>
+                <a href="#!" class="vinculo">Servicios Universitarios</a>
+            </div>
+        </div>
+        <div id="menu-lateral">
+            <a href="#!" class="vinculo-movil">Soy UTSOE</a>
+            <a href="#!" class="vinculo-movil">Extensión Universitaria</a>
+            <a href="#!" class="vinculo-movil">Vinculación</a>
+            <a href="#!" class="vinculo-movil">Servicios Escolares</a>
+            <a href="#!" class="vinculo-movil">Acceso a la Información</a>
+            <a href="#!" class="vinculo-movil">Servicios Universitarios</a>
+        </div>
+    </header>
+
+    <div id="slider-principal">
+        <div class="contenedor-imagen">
+            <img src="img/img1.jpg" alt="" class="imagen-slider">
+        </div>
+        <div class="contenedor-imagen">
+            <img src="img/img2.jpg" alt="" class="imagen-slider">
+        </div>
+        <div class="contenedor-imagen">
+            <img src="img/img1.jpg" alt="" class="imagen-slider">
+        </div>
+        <div class="contenedor-imagen">
+            <img src="img/img2.jpg" alt="" class="imagen-slider">
+        </div>
+        <a href="#!" id="anterior" onclick="cambiarImagen(-1)"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+        <a href="#!" id="siguiente" onclick="cambiarImagen(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+
+    <div id="historia-universidad">
+        <div id="fondo-historia">
+            <div class="contenedor" id="contenido-historia">
+                <span class="titulo gris">Historia de la UTSOE</span>
+                <p class="informacion">La Universidad Tecnológica del Suroeste de Guanajuato es un proyecto que surgió como una estrategia para ampliar la cobertura de servicios educativos a nivel superior en la región suroeste del estado. Bajo criterios de calidad, pertinencia y equidad las autoridades del estado de Guanajuato, en coordinación con el gobierno federal, a través de la S.E.P., acordaron la creación de una tercera universidad tecnológica en la entidad, no fue sino hasta el 26 de septiembre del mismo año cuando oficialmente se inició el ciclo escolar 98-99, con 4 programas educativos de técnico superior universitario con una matrícula de 124 educandos.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="convocatorias">
+        <div class="contenedor" id="contenedor-convocatorias">
+            <span class="titulo">Convocatorias</span>
+            <div id="imagenes-convocatorias">
+                <img src="img/img2.jpg" alt="" class="convocatoria">
+                <img src="img/img2.jpg" alt="" class="convocatoria">
+                <img src="img/img2.jpg" alt="" class="convocatoria">
+            </div>
+        </div>
+    </div>
+
+    <div id="tecnico-superior-universitario">
+        <div class="contenedor" id="contenedor-tsu">
+            <span class="titulo gris">Técnico Superior Universitario</span>
+            <p class="informacion">El título de técnico superior universitario se puede considerar como un nivel que esta entre el bachillerato y la licenciatura, y que posee un enfoque dual, pues combina tanto el aprendizaje en el aula con la práctica de estos conocimientos en talleres o laboratorios que simulan un ambiente más similar al de una empresa. A demás, en la mayoría de los programas el último cuatrimestre del programa se cursa completamente en el sector laboral, a través de una estadía en lugares de trabajo para que el estudiante adquiera y ponga en práctica lo que aprendió. La duración de los estudios de técnico superior universitario es de dos años.<br><br>Al concluir tus estudios obtendrás un título que te avala como profesionista de cierto campo y, en algunos casos, podrás optar por validar tus estudios para incorporarte o inscribirte en un programa de licenciatura o ingeniería.</p>
+            <div id="carreras-tsu">
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="agricultura"></div>
+                        <p class="informacion texto-icono">TSU. Agricultura Sustentable y Protegida</p>
+                    </div>
+                </a>
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="contaduria"></div>
+                        <p class="informacion texto-icono">TSU. Contaduría</p>
+                    </div>
+                </a>
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="negocios"></div>
+                        <p class="informacion texto-icono">TSU. Desarrollo de Negocios Área Mercadotécnia</p>
+                    </div>
+                </a>
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="diseno"></div>
+                        <p class="informacion texto-icono">TSU. Diseño y Moda Industrial Área producción</p>
+                    </div>
+                </a>
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="energias"></div>
+                        <p class="informacion texto-icono">TSU. Energías Renovables</p>
+                    </div>
+                </a>
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="mantenimiento"></div>
+                        <p class="informacion texto-icono">TSU. Mantenimiento Área Industrial</p>
+                    </div>
+                </a>
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="mecanica"></div>
+                        <p class="informacion texto-icono">TSU. Mecánica Área Industrial</p>
+                    </div>
+                </a>
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="procesos"></div>
+                        <p class="informacion texto-icono">TSU. Procesos Alimentarios</p>
+                    </div>
+                </a>
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="terapia"></div>
+                        <p class="informacion texto-icono">TSU. Terapia Física Área Rehabilitación</p>
+                    </div>
+                </a>
+                <a href="#!" class="enlace-carrera">
+                    <div class="carrera">
+                        <div class="icono-carrera" id="tecnologias"></div>
+                        <p class="informacion texto-icono">TSU. Tecnologías de la Información y la Comunicación</p>
+                    </div>
+                </a>
+            </div>
+            <div id="vision-tsu">
+                <span class="titulo gris">Visión global de los programas educativos UTSOE</span>
+                <img src="img/icon/logros-tsu.png" alt="logros utsoe">
+            </div>
+        </div>
+    </div>
+
+    <div id="logros">
+        <div class="contenedor" id="contenedor-logros">
+            <span class="titulo">Lo que estamos logrando</span>
+            <div id="logros-universidad">
+                <div class="logro">
+                    <img src="img/img1.jpg" alt="" class="imagen-logro">
+                    <div class="contenido-logro">
+                        <dif class="fecha-logro">
+                            <p class="informacion fecha">01<br>Ene</p>
+                        </dif>
+                        <div class="informacion-logro">
+                            <p class="informacion  sin-espacio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis illum excepturi deleniti? Fuga accusamus illo quaerat pariatur illum velit voluptatibus eum totam inventore repellat sint, quod mollitia distinctio, impedit, eius?</p>
+                        </div>
+                    </div>
+                    <div class="enlace-logro">
+                        <a href="#!" class="enlace-logro">Continuar</a>
+                    </div>
+                </div>
+                <div class="logro">
+                    <img src="img/img1.jpg" alt="" class="imagen-logro">
+                    <div class="contenido-logro">
+                        <dif class="fecha-logro">
+                            <p class="informacion fecha">02<br>Ene</p>
+                        </dif>
+                        <div class="informacion-logro">
+                            <p class="informacion sin-espacio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque nulla quisquam, ipsam. Eum eveniet, excepturi commodi possimus! Nam, voluptates nihil ratione quisquam accusamus vel harum ex, eveniet, excepturi voluptate provident.</p>
+                        </div>
+                    </div>
+                    <div class="enlace-logro">
+                        <a href="#!" class="enlace-logro">Continuar</a>
+                    </div>
+                </div>
+                <div class="logro">
+                    <img src="img/img1.jpg" alt="" class="imagen-logro">
+                    <div class="contenido-logro">
+                        <dif class="fecha-logro">
+                            <p class="informacion fecha">03<br>Ene</p>
+                        </dif>
+                        <div class="informacion-logro">
+                            <p class="informacion sin-espacio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, corporis quas nulla animi! Cupiditate aliquid ullam, nisi sunt sed possimus voluptatum harum, in accusamus nemo, quia! Fuga saepe in, modi?</p>
+                        </div>
+                    </div>
+                    <div class="enlace-logro">
+                        <a href="#!" class="enlace-logro">Continuar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="capacitaciones">
+        <div class="contenedor" id="contenedor-capacitaciones">
+            <span class="titulo">Sigue Capacitándote</span>
+            <div id="imagen-capacitaciones">
+                <a href="#!" id="enlace-capacitaciones">
+                    <div class="capacitacion">
+                        <div class="icono-capacitacion" id="educacion"></div>
+                        <p class="informacion descripcion">Educación continua</p>
+                    </div>
+                </a>
+                <a href="#!" id="enlace-capacitaciones">
+                    <div class="capacitacion">
+                        <div class="icono-capacitacion" id="tecnologico"></div>
+                        <p class="informacion descripcion">Servicios tecnológicos</p>
+                    </div>
+                </a>
+                <a href="#!" id="enlace-capacitaciones">
+                    <div class="capacitacion">
+                        <div class="icono-capacitacion" id="incubacion"></div>
+                        <p class="informacion descripcion">Servicios de incubación</p>
+                    </div>
+                </a>
+                <a href="#!" id="enlace-capacitaciones">
+                    <div class="capacitacion">
+                        <div class="icono-capacitacion" id="proyectos"></div>
+                        <p class="informacion descripcion">Desarrollo de proyectos de investigación</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="intercambio-estudiantil">
+        <div class="contenedor" id="contenedor-intercambio">
+            <span class="titulo gris">Intercambio Estudiantil</span>
+            <p class="informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptate ad numquam. Placeat doloremque, laudantium iusto consequuntur perferendis quam sunt quisquam! Esse modi nesciunt ea voluptate quod assumenda sint quasi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo commodi vitae enim doloribus minima earum quasi repellat quo voluptatem id velit accusantium dolorum ducimus aut tenetur magnam nihil, blanditiis qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, suscipit. Sequi hic sunt accusantium possimus maiores cumque officiis et, asperiores! Facere hic unde nesciunt animi modi, at ad, iste quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, cum rem quos laborum omnis ad illum quae iste? Accusantium ex omnis asperiores nesciunt quos molestiae reprehenderit inventore culpa beatae eaque.</p>
+            <div id="contenedor-banderas">
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/alemania.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/alemania.png" alt="alemania utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/argentina.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/argentina.png" alt="argentina utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/belgica.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/belgica.png" alt="belgica utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/brasil.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/brasil.png" alt="brasil utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/canada.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/canada.png" alt="canada utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/china.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/china.png" alt="china utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/colombia.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/colombia.png" alt="colombia utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/cuba.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/cuba.png" alt="cuba utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/eslovenia.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/eslovenia.png" alt="eslovenia utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/espana.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/espana.png" alt="espana utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/estados-unidos.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/estados-unidos.png" alt="estados unidos utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/francia.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/francia.png" alt="francia utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/japon.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/japon.png" alt="japon utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/mexico.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/mexico.png" alt="mexico utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/portugal.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/portugal.png" alt="portugal utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+                <div id="imagenes-banderas">
+                    <a href="#!" class="enlace-bandera"><img src="img/icon/banderas/suiza.png" alt="intercambios estudiantiles utsoe" class="bandera"></a>
+                    <div class="informacion-intercambio">
+                        <img src="img/icon/banderas/suiza.png" alt="suiza utsoe" class="imagen-intercambio">
+                        <p class="informacion texto-intercambio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestias odio, laboriosam corporis optio consectetur unde illum, voluptates quaerat debitis minima impedit sint cupiditate inventore animi omnis expedita fuga. Delectus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="organismos">
+        <div class="contenedor" id="contenedor-organismo">
+           <span class="titulo gris">Organismos de interés</span>
+            <div id="contenedor-organismos">
+                <a href="#!" class="enlace-organismo"><img src="img/icon/organizaciones/utp.png" alt="coordinacion general de universidades tecnologicas y politecnicas utsoe" class="imagen-organismo"></a>
+            <a href="#!" class="enlace-organismo"><img src="img/icon/organizaciones/meg.png" alt="modelo de equidad de genero utsoe" class="imagen-organismo"></a>
+            <a href="#!" class="enlace-organismo"><img src="img/icon/organizaciones/anut.png" alt="asociacion nacional de universidades tecnologicas utsoe" class="imagen-organismo"></a>
+            <a href="#!" class="enlace-organismo"><img src="img/icon/organizaciones/ciees.png" alt="comites interinstitucionales par la evaluacion de la educacion superior utsoe" class="imagen-organismo"></a>
+            <a href="#!" class="enlace-organismo"><img src="img/icon/organizaciones/anuies.png" alt="asociacion nacional de universidades e instituciones de educacion superior utsoe" class="imagen-organismo"></a>
+            <a href="#!" class="enlace-organismo"><img src="img/icon/organizaciones/contraloria-social.png" alt="contraloria social utsoe" class="imagen-organismo"></a>
+            <a href="#!" class="enlace-organismo"><img src="img/icon/organizaciones/coepes.png" alt="comision estatal para la planeacion de la educaion superior utsoe" class="imagen-organismo"></a>
+            <a href="#!" class="enlace-organismo"><img src="img/icon/organizaciones/portal-de-transparencia.png" alt="portal de transparencia del poder ejecutivo utsoe" class="imagen-organismo"></a>
+            </div>
+        </div>
+        <div class="contenedor" id="contenedor-secretarias">
+            <a href="#!" class="enlace-secretaria"><img src="img/icon/organizaciones/sep.png" alt="secretaria de educacion publica utsoe" class="imagen-organismo"></a>
+            <a href="#!" class="enlace-secretaria"><img src="img/icon/organizaciones/gto.png" alt="secretaria de investigacion ciencia y educacion superior utsoe" class="imagen-organismo"></a>
+            <a href="#!" class="enlace-secretaria"><img src="img/icon/organizaciones/utxv.png" alt="universidades tecnologicas utsoe" class="imagen-organismo"></a>
+        </div>
+    </div>
+
+    <footer id="pie-pagina">
+        <div id="slogan-pie-pagina">
+            <p class="slogan">¡Saber hacer... Para ser UTSOE!</p>
+        </div>
+        <div class="contenedor">
+            <div id="contenido-pie-pagina">
+                <div id="logo-liebres">
+                    <img src="img/icon/logo-liebres.png" alt="logo utsoe liebres">
+                </div>
+                <div id="ultimas-noticias">
+                    <p class="titulo-pie-pagina">Últimas Noticias</p>
+                    <a href="#!" class="noticia">Noticia</a>
+                    <a href="#!" class="noticia">Noticia</a>
+                    <a href="#!" class="noticia">Noticia</a>
+                    <a href="#!" class="noticia">Noticia</a>
+                    <a href="#!" class="noticia">Noticia</a>
+                </div>
+                <div id="categorias">
+                    <p class="titulo-pie-pagina">Categorías</p>
+                    <a href="#!" class="categoria">Categoria</a>
+                    <a href="#!" class="categoria">Categoria</a>
+                    <a href="#!" class="categoria">Categoria</a>
+                </div>
+            </div>
+            <div id="logo-pie-pagina">
+                <img src="img/icon/logo-footer.png" alt="logo utsoe" id="logo-informacion">
+                <p id="texto-logo">Universidad Tecnológica del Suroeste de Guanajuato.<br>Carretera Valle-Huanimaro, km 1.2, Valle de Santiago, Guanajuato.<br>Tel: 01 (456) 64 3 62 65, 64 3 71 80, 64 3 71 88. Fax: 122.<br>C.P. 38400</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/principal.min.js"></script>
+</body>
+
+</html>
